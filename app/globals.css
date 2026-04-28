@@ -1,23 +1,47 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #1a1d26;
+/* ── Brand Color Tokens (aus lib/theme.ts) ──────────────────────────────── */
+@theme {
+  /* Accent – BriefBox Brand Blue */
+  --color-brand:          #2563EB;
+  --color-brand-dark:     #1D4ED8;
+  --color-brand-light:    #EFF6FF;
+  --color-brand-text:     #1E40AF;
+
+  /* Light Mode Backgrounds */
+  --color-bg-light:       #F8FAFC;
+  --color-surface-light:  #FFFFFF;
+  --color-surface2-light: #F1F5F9;
+
+  /* Dark Mode Backgrounds */
+  --color-bg-dark:        #0C0E14;
+  --color-surface-dark:   #161B27;
+  --color-surface2-dark:  #1E2535;
+
+  /* Borders */
+  --color-border-light:   #E2E8F0;
+  --color-border-dark:    #1E2535;
+
+  /* Text */
+  --color-text-primary-light:   #0F172A;
+  --color-text-secondary-light: #475569;
+  --color-text-tertiary-light:  #94A3B8;
+  --color-text-primary-dark:    #F1F5F9;
+  --color-text-secondary-dark:  #94A3B8;
+  --color-text-tertiary-dark:   #475569;
+
+  /* Status */
+  --color-success:  #16A34A;
+  --color-warning:  #D97706;
+  --color-danger:   #DC2626;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f0f13;
-    --foreground: #f3f4f6;
-  }
+/* ── Base ───────────────────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
