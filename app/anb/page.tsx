@@ -3,11 +3,11 @@ import Link from "next/link";
 import { LogoText } from "@/components/Logo";
 
 export const metadata: Metadata = {
-  title: "AGB – BriefBox",
+  title: "ANB – BriefBox",
   description: "Allgemeine Nutzungsbedingungen des Services BriefBox.ai",
 };
 
-export default function AGB() {
+export default function ANB() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: "#F8FAFC", color: "#0F172A" }}>
       <nav
@@ -29,10 +29,10 @@ export default function AGB() {
       </nav>
 
       <style dangerouslySetInnerHTML={{__html: `
-        .agb-content {
+        .anb-content {
           color: #475569;
         }
-        .agb-content h1 {
+        .anb-content h1 {
           color: #0F172A;
           font-family: var(--font-urbanist);
           letter-spacing: -0.03em;
@@ -40,7 +40,7 @@ export default function AGB() {
           font-weight: 700;
           margin-bottom: 0.5rem;
         }
-        .agb-content h2 {
+        .anb-content h2 {
           color: #0F172A;
           font-family: var(--font-urbanist);
           font-size: 1.5rem;
@@ -48,7 +48,7 @@ export default function AGB() {
           margin-top: 2.5rem;
           margin-bottom: 1rem;
         }
-        .agb-content h3 {
+        .anb-content h3 {
           color: #0F172A;
           font-family: var(--font-urbanist);
           font-size: 1.125rem;
@@ -56,33 +56,33 @@ export default function AGB() {
           margin-top: 1.5rem;
           margin-bottom: 0.75rem;
         }
-        .agb-content p {
+        .anb-content p {
           margin-top: 1rem;
           margin-bottom: 1rem;
           line-height: 1.75;
         }
-        .agb-content ul {
+        .anb-content ul {
           margin-top: 1rem;
           margin-bottom: 1rem;
           list-style-type: disc;
           padding-left: 1.5rem;
         }
-        .agb-content li {
+        .anb-content li {
           margin-top: 0.5rem;
           margin-bottom: 0.5rem;
         }
-        .agb-content a {
+        .anb-content a {
           color: #2563EB;
           text-decoration: none;
         }
-        .agb-content a:hover {
+        .anb-content a:hover {
           text-decoration: underline;
         }
-        .agb-content strong {
+        .anb-content strong {
           color: #0F172A;
           font-weight: 600;
         }
-        .agb-content address {
+        .anb-content address {
           background-color: #F1F5F9;
           padding: 1.25rem;
           border-radius: 1rem;
@@ -91,7 +91,7 @@ export default function AGB() {
           margin-bottom: 1rem;
         }
       `}} />
-      <main className="agb-content max-w-4xl mx-auto px-6 py-16">
+      <main className="anb-content max-w-4xl mx-auto px-6 py-16">
         <h1>Allgemeine Nutzungsbedingungen des Services BriefBox.ai</h1>
         <p style={{ color: "#94A3B8", marginBottom: "3rem" }}>
           Stand: 04.05.2026

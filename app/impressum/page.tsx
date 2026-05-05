@@ -124,8 +124,8 @@ export default function Impressum() {
             <Link href="/" className="hover:text-[#0F172A] transition-colors">
               Startseite
             </Link>
-            <Link href="/agb" className="hover:text-[#0F172A] transition-colors">
-              AGB
+            <Link href="/anb" className="hover:text-[#0F172A] transition-colors">
+              ANB
             </Link>
             <Link href="/datenschutz" className="hover:text-[#0F172A] transition-colors">
               Datenschutz

@@ -452,10 +452,10 @@ export default function Home() {
               Impressum
             </Link>
             <Link
-              href="/agb"
+              href="/anb"
               className="transition-colors hover:text-[#0F172A]"
             >
-              AGB
+              ANB
             </Link>
             <Link
               href="/datenschutz"
