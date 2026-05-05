@@ -637,6 +637,9 @@ export default function AGB() {
             <Link href="/" className="hover:text-[#0F172A] transition-colors">
               Startseite
             </Link>
+            <Link href="/impressum" className="hover:text-[#0F172A] transition-colors">
+              Impressum
+            </Link>
             <Link href="/datenschutz" className="hover:text-[#0F172A] transition-colors">
               Datenschutz
             </Link>

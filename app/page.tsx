@@ -446,6 +446,12 @@ export default function Home() {
           <LogoText height={16} />
           <div className="flex items-center gap-6 text-sm" style={{ color: "#94A3B8" }}>
             <Link
+              href="/impressum"
+              className="transition-colors hover:text-[#0F172A]"
+            >
+              Impressum
+            </Link>
+            <Link
               href="/agb"
               className="transition-colors hover:text-[#0F172A]"
             >
