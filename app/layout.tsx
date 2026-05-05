@@ -17,7 +17,10 @@ export const metadata: Metadata = {
     "BriefBox scannt deine Briefe, erklärt sie verständlich und hilft dir mit Antworten – direkt auf deinem iPhone. Nie wieder wichtige Post übersehen.",
   keywords: ["Briefe scannen", "Briefassistent", "Dokumente verstehen", "iOS App", "BriefBox"],
   icons: {
-    icon: "/app-icon.png",
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/app-icon.png", sizes: "any" },
+    ],
     apple: "/app-icon.png",
   },
   openGraph: {
